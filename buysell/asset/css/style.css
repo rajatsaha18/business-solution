@@ -1,0 +1,11 @@
+.hero_buy_sell a{
+    text-decoration: none;
+}
+
+
+
+@media(max-width:600px){
+    .setting input{
+        width:100%!important;
+    }
+}

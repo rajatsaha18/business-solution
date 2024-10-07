@@ -1,0 +1,269 @@
+*{
+    font-family: 'Montserrat';
+}
+p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+.nav-item a{
+    font-size:20px;
+    margin:10px;
+
+}
+.banner-slider img{
+    width:100%;
+   height:400px;
+   object-fit: cover;
+}
+.slick-prev:before {
+    content: "\2329"!important;
+   font-weight:800;
+    font-size: 1rem;
+    color: #05a812;
+}
+.slick-next:before {
+    content: "\232a"!important;
+    font-weight:800;
+    font-size: 1rem;
+    color: #05a812;
+}
+.slick-next:before:hover {
+    color:white;
+    background: gree;
+}
+.counter img{
+    width:80px;
+}
+.counter{
+    background:#3D3D3D;
+    color:white!important;
+    width:83%;
+}
+.invest-option img{
+    height:202px;
+}
+.invest-option{
+    background-color:#F1FAF6;
+}
+.maturtd .card{
+    background-color:#1bad4e18;
+    text-align: center;
+    margin-bottom:30px;
+
+}
+.maturtd .card h5{
+    font-weight:600;
+}
+.maturtd .card p{
+    font-weight:500;
+
+}
+.counting{
+    margin-top:70px!important;
+    
+}
+  .experience-team{
+    background-color: #F1FAF6;
+  }
+  .experience-team img{
+    height:255.156px;
+    object-fit: cover;
+  }
+.vm{
+    text-decoration: none;
+}
+.our-advisor .card img{
+    width:160px;
+    height:164.188px;
+}
+/* .pare{
+    position:absolute
+} */
+.accordion{
+    width:60%;
+    margin:0 auto;
+}
+.accordion-down{
+    width:60%;
+    margin:0 auto;
+    font-style:italic;
+    margin-top:10px;
+    font-weight:600;
+}
+.accordion-down a{
+    color:gray;
+}
+.iconn{
+    position: relative;
+   top:-93%;
+   left:86%;
+   font-size:30px;
+    
+}
+.slick-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #BBBBBB;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 0;
+    position: absolute;
+    left: -50px;
+    top: 110%!important;
+    margin-top: -22px;
+    margin-left:50%!important;
+}
+.slick-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #BBBBBB;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 0;
+    position: absolute;
+    right: -50px;
+    top: 110%!important;
+    margin-right: 50%!important;
+    margin-top: -22px;
+}
+.running-business-content{
+    width:45%;
+    margin:0 auto;
+    margin-top:20px;
+    font-weight: 500;
+}
+.running-business-content h6{
+    padding-bottom:10px;
+   
+  }
+.running-business-content span{
+  font-weight:600;
+ 
+}
+.shariah-based,.prohibited,.advisor,.vision,.management-team{
+    background-color:#F1FAF6;
+}
+.shariah-based img{
+    width:1000%;
+    height:80%;
+}
+.prohibited img{
+    width:150px;
+    height:150px;
+}
+.mission{
+    margin-top:100px;
+}
+.mission img ,.vision img{
+    height:400px;
+    object-fit:cover;
+    border-radius: 20px;
+    width:100%;
+}
+.executive-team img{
+    width:100%;
+    height:auto;
+    border-radius: 20px;
+}
+.executive-team .card:hover{
+    border: 2px solid#05a812!important;
+}
+.management-team img,.marketing-team img{
+    width:100%;
+    height:auto;
+    border-radius: 20px;
+}
+.management-team .card:hover,.marketing-team .card:hover{
+    border: 2px solid#05a812!important;
+}
+.blog img, .other-blogs img{
+    height:250px;
+    width:100%;
+}
+.form-card{
+    border-radius: 15px;
+    border:2px solid green!important;
+}
+.login img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+.card-elem{
+    margin-bottom:20px;
+}
+.card-elem .card:hover{
+    border:2px solid green!important;
+}
+.blog-details img{
+    width:100%;
+    height:300px;
+}
+footer{
+    background-color: #353535;
+    color:white;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+    padding-bottom:5px;
+}
+footer a:hover{
+    color:white;
+}
+.invest-detail-part-one img{
+    width:100%;
+   
+}
+.cad .card{
+    height:120px;
+}
+  @media(max-width:600px){
+    .experience-team img{
+        height:211.734px;
+       
+    }
+    .our-advisor .card img{
+        width:100%;
+        height:211.734px;
+    }
+    .iconn{
+        display:none!important;
+    }
+    .accordion{
+        width:100%;
+       
+    }
+    .accordion-down{
+        width:100%;
+    }
+    .counter{
+        text-align: center;
+    }
+    .our-advisor .col-md-6{
+        margin-bottom:20px;
+    }
+    .running-business-content{
+        width:100%;
+      
+    }
+    .shariah-based img{
+        width:100%;
+        height:100%;
+    }
+    .certificate{
+        margin-top:20px;
+    }
+    .mission img{
+        height:auto;
+       
+    }
+    .login img{
+        display:none;
+    }
+  }
